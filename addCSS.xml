@@ -4,12 +4,16 @@
   <soapenv:Body>
     <ns:addCss>
       <css>
-		<name>AXL-Test-CSS-2</name>
+		<name>AXL-Test-CSS</name>
 		<description>Angelegt via AXL mit Partition</description>
 		<members>
 			<member>
 				<index>1</index>
 				<routePartitionName>AXL-Test-PT</routePartitionName>
+			</member>
+			<member>
+				<index>2</index>
+				<routePartitionName>AXL-Test-PT-2</routePartitionName>
 			</member>
 		</members>
 	  </css>
