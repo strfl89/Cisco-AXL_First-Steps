@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/10.0">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <ns:addCss>
+      <css>
+		<name>AXL-Test-CSS-2</name>
+		<description>Angelegt via AXL mit Partition</description>
+		<members>
+			<member>
+				<index>1</index>
+				<routePartitionName>AXL-Test-PT</routePartitionName>
+			</member>
+		</members>
+	  </css>
+	</ns:addCss>
+  </soapenv:Body>
+</soapenv:Envelope>
